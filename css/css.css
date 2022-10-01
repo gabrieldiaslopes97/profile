@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Poppins:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+   display: flex;
+   justify-content: center;
+
+
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+}
+h1{
+    font-family: 'Orbitron';
+    font-size: 18px;
+}
+p{
+    font-family: 'Poppins';
+
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+
+    font-weight: bold;
+}
+.container{
+    width:100vw;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+    gap: 0.6rem 0;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../img/Logotipo\ Moda\ Loja\ Minimalista\ Preto\ e\ Branco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -2px 12px 17px 0px rgba(0, 0, 0, 0.46);
+
+}
+
+.description{
+    border-radius: 12px;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    background-color: rgba(255, 252, 252, 0.27);
+    box-shadow: -2px 12px 17px 0px rgba(0, 0, 0, 0.46);
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin:8px 0;
+    display:inline-flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+.link  a{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #00cffd;
+    box-shadow: -2px 12px 17px 0px rgba(0, 0, 0, 0.46);
+    transition: 0.3s ease-in-out;
+
+
+}
+.link a:hover{
+    width: 62px;
+    height: 62px;
+}
+
+@keyframes up-down {
+    0%{
+        transform: translateY(5px);
+
+    }
+    50%{
+      
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+    
+}
+@keyframes up {
+    0%{
+        transform: translateY(-5px);
+
+    }
+    50%{transform: translateY(5px);}
+    100%{transform: translateY(-5px);}
+}
+
+.github{
+    background-image: url('../img/iconmonstr-github-1-240.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    animation: 5s up-down infinite;
+
+}
+
+.instagram{
+    background-image: url('../img/iconmonstr-instagram-11-240.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    animation: 5s up infinite;
+
+    
+}
+.in{
+    background-image: url('../img/iconmonstr-linkedin-3-240.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    animation: 5s up-down infinite;
+    
+
+}
+
+.contato{
+    text-align: center;
+    background-color: #d9d9d9;
+    text-decoration: none;
+    color: black;
+    width: 260px;
+    height:43px;
+    padding: 13px 56px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 12px 17px 0px rgba(0, 0, 0, 0.46);
+    font-family:   'Poppins';
+    cursor: pointer;
+}
+
+.end p{
+    opacity: 0.79;
+    max-width: 300px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+.container-carrossel{
+    width: 250px;
+
+}
+
+.carousel-item img{
+    box-shadow: -2px 12px 17px 0px rgba(0, 0, 0, 0.46);
+margin-bottom: 1rem;
+    width:100%;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+
+}
+.carousel-item img:hover{
+    width: 110%;
+}
+.carousel-inner{
+    position: relative;
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
