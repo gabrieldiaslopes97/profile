@@ -8,13 +8,15 @@ body{
    justify-content: center;
 
 
+
    flex-direction: column;
    align-items: center;
-   background-color: white;
+background: radial-gradient(circle, rgba(214,16,102,1) 6%, rgba(34,4,64,1) 75%); 
 }
 h1{
     font-family: 'Orbitron';
     font-size: 18px;
+    color:white;
 }
 p{
     font-family: 'Poppins';
@@ -24,6 +26,7 @@ p{
     justify-content: center;
     display: flex;
     align-items: center;
+    color: white;
     
 
     font-weight: bold;
@@ -141,9 +144,8 @@ p{
 
 .contato{
     text-align: center;
-    background-color: #d9d9d9;
-    text-decoration: none;
-    color: black;
+    background: linear-gradient(90deg, rgba(34,4,64,1) 38%, rgba(214,16,102,1) 99%);     text-decoration: none;
+    color: white;
     width: 250px;
     height:43px;
     padding: 13px;
@@ -159,7 +161,9 @@ p{
     max-width: 300px;
     font-weight: 600;
     margin-top: 15px;
-    margin-bottom: 0;
+    margin-bottom: 12px;
+    color:white
+    ;
 }
 
 
@@ -180,8 +184,8 @@ margin-bottom: 1rem;
     transition: 0.4s ease-in-out;
 
 }
-.carousel-item img:hover{
-    width: 110%;
+.container-carrossel:hover{
+    transform: scale(1.1);
 }
 .carousel-inner{
     position: relative;
@@ -197,10 +201,10 @@ margin-bottom: 1rem;
 /* reciclando codigo hahahah */
 
 .typewriter h1 {
+    color: white;
     user-select: none;
     
 
-    color: black;
     font-family: 'Orbitron';
     font-weight: 700;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
